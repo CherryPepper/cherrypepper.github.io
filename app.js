@@ -1,7 +1,7 @@
 // Initialize the Telegram WebApp
 const tg = window.Telegram.WebApp;
 
-console.log(tg)
+console.log(tg.initData)
 
 // Display Telegram user's first name
 document.body.insertAdjacentHTML('beforeend', `<p>Hello, ${tg.initDataUnsafe.user.first_name}!</p>`);
