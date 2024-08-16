@@ -2,6 +2,7 @@
 const tg = window.Telegram.WebApp;
 
 console.log(tg.initData)
+console.log(tg.initDataUnsafe)
 
 // Display Telegram user's first name
 document.body.insertAdjacentHTML('beforeend', `<p>Hello, ${tg.initDataUnsafe.user.first_name}!</p>`);
